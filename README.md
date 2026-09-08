@@ -2,6 +2,8 @@
 
 A lightweight, dependency-free solution to label AI-generated background images on websites — compliant with Article 50 of the EU AI Act.
 
+![Example image for the volatile badge](Title-pictureEN_for_readme-md.jpg "Example image for the volatile badge")
+
 ## The Problem
 
 The EU AI Act (Art. 50, in force since August 2, 2026) requires businesses to clearly label AI-generated images that could be mistaken for real ones. A simple caption below an image is sufficient — but background images don't have captions. They're injected via CSS, invisible to the casual visitor, and any label badge placed on top is likely covered by page content.
@@ -47,11 +49,11 @@ Works in any static site, CMS, or template — as long as background images are 
 
 ## Files
 
-| File | Purpose |
-|---|---|
-| `disclosure.js` | Core logic: detection, language, sessionStorage |
-| `disclosure.css` | Styling: fixed position, blur, transition |
-| `test.html` | Demo page with AI-generated background |
+| File             | Purpose                                         |
+| ---------------- | ----------------------------------------------- |
+| `disclosure.js`  | Core logic: detection, language, sessionStorage |
+| `disclosure.css` | Styling: fixed position, blur, transition       |
+| `test.html`      | Demo page with AI-generated background          |
 
 ## Limitations
 

@@ -2,6 +2,8 @@
 
 Eine schlanke, abhängigkeitsfreie Lösung zur Kennzeichnung KI-generierter Hintergrundbilder auf Webseiten — konform mit Artikel 50 des EU AI Act.
 
+![Beispielblid KI-generated mit Button  ](Title-picture_for_readme-md.jpg "Beispielblid KI-generated mit Button  ")
+
 ## Das Problem
 
 Der EU AI Act (Art. 50, gültig ab 2. August 2026) verpflichtet Unternehmen, KI-generierte Bilder, die als echt erscheinen könnten, klar zu kennzeichnen. Eine einfache Bildunterschrift genügt — aber Hintergrundbilder haben keine Bildunterschrift. Sie werden per CSS eingebunden, sind für normale Besucher unsichtbar, und ein aufgeklebter Badge wird höchstwahrscheinlich vom Seiteninhalt verdeckt.
@@ -47,11 +49,11 @@ Funktioniert auf jeder statischen Seite, in jedem CMS oder Template — sofern d
 
 ## Dateien
 
-| Datei | Zweck |
-|---|---|
-| `disclosure.js` | Kernlogik: Erkennung, Sprache, sessionStorage |
+| Datei            | Zweck                                            |
+| ---------------- | ------------------------------------------------ |
+| `disclosure.js`  | Kernlogik: Erkennung, Sprache, sessionStorage    |
 | `disclosure.css` | Styling: fixed Position, Blur-Effekt, Transition |
-| `test.html` | Demo-Seite mit KI-generiertem Hintergrund |
+| `test.html`      | Demo-Seite mit KI-generiertem Hintergrund        |
 
 ## Einschränkungen
 
