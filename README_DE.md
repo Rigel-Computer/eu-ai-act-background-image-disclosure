@@ -14,7 +14,7 @@ Drei Dateien. Keine Dependencies. Kein CMS-Eingriff. Keine Datenbankmigrationen.
 
 Beim ersten Besuch einer Seite mit KI-generiertem Hintergrundbild erscheint ein kleiner, fixed positionierter Hinweis-Button. Der Nutzende kann ihn wegklicken — er erscheint in der gleichen Session nicht erneut, kommt aber beim Reload zurück.
 
-**Die entscheidende Idee:** Die Entscheidung, ob ein Hintergrundbild KI-generiert ist, liegt bei der Person, die es erstellt hat. Statt CMS-Felder oder redaktionelle Checklisten einzuführen, trägt der Dateiname diese Information:
+**Die elegante Idee:** Die Entscheidung, ob ein Hintergrundbild KI-generiert ist, liegt bei der Person, die es erstellt hat. Statt CMS-Felder oder redaktionelle Checklisten einzuführen, trägt **der Dateiname** diese Information:
 
 ```
 hero-AI-generated.jpg
