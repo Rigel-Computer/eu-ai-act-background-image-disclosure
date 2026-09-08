@@ -56,8 +56,8 @@ Funktioniert auf jeder statischen Seite, in jedem CMS oder Template — sofern d
 ## Einschränkungen
 
 - Erkennt nur Hintergrundbilder, die per CSS direkt am `body` gesetzt sind
-- Basiert auf der Dateinamen-Konvention — Umbenennung der Datei bricht die Erkennung (still, kein Warning)
-- Keine automatische Erkennung von KI-Inhalten; das bleibt bewusst eine menschliche Entscheidung
+- Basiert auf der Dateinamen-Konvention — Umbenennung der Datei => keine automatische Erkennung (mehr)
+- Es ist BEWUSST keine automatische Erkennung von KI-Inhalten, das bleibt grundsätzlich eine menschliche Entscheidung
 
 ## Rechtlicher Hinweis
 
