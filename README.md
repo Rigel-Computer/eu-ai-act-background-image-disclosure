@@ -55,7 +55,7 @@ Works in any static site, CMS, or template — as long as background images are 
 | ---------------- | ----------------------------------------------- |
 | `disclosure.js`  | Core logic: detection, language, sessionStorage |
 | `disclosure.css` | Styling: fixed position, blur, transition       |
-| `test.html`      | Demo page with AI-generated background          |
+| `index.html`     | Demo page with AI-generated background          |
 
 ## Limitations
 

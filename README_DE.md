@@ -55,7 +55,7 @@ Funktioniert auf jeder statischen Seite, in jedem CMS oder Template — sofern d
 | ---------------- | ------------------------------------------------ |
 | `disclosure.js`  | Kernlogik: Erkennung, Sprache, sessionStorage    |
 | `disclosure.css` | Styling: fixed Position, Blur-Effekt, Transition |
-| `test.html`      | Demo-Seite mit KI-generiertem Hintergrund        |
+| `index.html`     | Demo-Seite mit KI-generiertem Hintergrund        |
 
 ## Einschränkungen
 
