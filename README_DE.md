@@ -25,6 +25,8 @@ background-landscape-AI-generated.webp
 
 Das Script liest die CSS `background-image`-URL des Body und prüft, ob beide Begriffe `ai` und `generated` im Dateinamen enthalten sind. Treffer → Button wird angezeigt. Kein Treffer → kein Button. Trennzeichen, Reihenfolge und Groß-/Kleinschreibung spielen keine Rolle.
 
+Implementiert wurde direkt Mehrsprachigkeit (DE / EN / FR) des Buttons: Vom Browser automatisch gesteuert wird ein Text in der Sprache des Clients ausgerollt
+
 ## Funktionsweise
 
 ```javascript

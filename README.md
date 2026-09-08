@@ -25,6 +25,8 @@ background-landscape-AI-generated.webp
 
 The script reads the CSS `background-image` URL and checks for the presence of both `ai` and `generated` in the filename. If both are found, the disclosure button is shown. No match — no button. Separator, order, and capitalization are irrelevant.
 
+Multilingual support is built in (DE / EN / FR): the button label is automatically rendered in the visitor's browser language.
+
 ## How It Works
 
 ```javascript
