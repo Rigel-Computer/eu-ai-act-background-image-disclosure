@@ -14,7 +14,7 @@ Drei Dateien. Keine Dependencies. Kein CMS-Eingriff. Keine Datenbankmigrationen.
 
 Beim ersten Besuch einer Seite mit KI-generiertem Hintergrundbild erscheint ein kleiner, fixed positionierter Hinweis-Button. Der Nutzende kann ihn wegklicken — er erscheint in der gleichen Session nicht erneut, kommt aber beim Reload zurück.
 
-**Die entscheidende Idee:** Die Entscheidung, ob ein Hintergrundbild KI-generiert ist, liegt bei der Person, die es erstellt hat. Statt CMS-Felder oder redaktionelle Checklisten einzuführen, trägt der Dateiname diese Information:
+**Die elegante Idee:** Die Entscheidung, ob ein Hintergrundbild KI-generiert ist, liegt bei der Person, die es erstellt hat. Statt CMS-Felder oder redaktionelle Checklisten einzuführen, trägt **der Dateiname** diese Information:
 
 ```
 hero-AI-generated.jpg
@@ -56,8 +56,8 @@ Funktioniert auf jeder statischen Seite, in jedem CMS oder Template — sofern d
 ## Einschränkungen
 
 - Erkennt nur Hintergrundbilder, die per CSS direkt am `body` gesetzt sind
-- Basiert auf der Dateinamen-Konvention — Umbenennung der Datei bricht die Erkennung (still, kein Warning)
-- Keine automatische Erkennung von KI-Inhalten; das bleibt bewusst eine menschliche Entscheidung
+- Basiert auf der Dateinamen-Konvention — Umbenennung der Datei => keine automatische Erkennung (mehr)
+- Es ist BEWUSST keine automatische Erkennung von KI-Inhalten, das bleibt grundsätzlich eine menschliche Entscheidung
 
 ## Rechtlicher Hinweis
 
